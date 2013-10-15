@@ -1,0 +1,115 @@
+<!doctype html>
+<html>
+<head>
+<title>Content of EPUB</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<style text>
+#books {
+  float: left;
+  border: 1px solid lightgray;
+  width: 400px;
+}
+
+.book {
+  padding: 10px;
+  background-color: lightgray;
+  . h1 {
+    display: none;
+  }
+}
+
+#content {
+  margin-left: 400px;
+  padding: 20px;
+  border: 1px solid lightgray;
+  display: none;
+}
+</style>
+<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mathjax" src="http://cdn.mathjax.org/mathjax/2.0-latest/MathJax.js?config=TeX-MML-AM_HTMLorMML-full"></script>
+     <script>
+
+        // get relative path from a filename url
+        // e.g. http://whatever.com/here/togo/file.htm
+        // returns /here/togo/
+        function getDirectory(url)
+        {
+          var tempurl = document.createElement('a');
+          tempurl.href = url;
+          var pathArray = tempurl.pathname.split('/');
+          var newPathname = "";
+          for ( i = 0; i < pathArray.length-1; i++ ) {
+            newPathname += pathArray[i];
+            newPathname += "/";
+          }
+          return newPathname;
+        }
+
+        $(document).ready(function(){
+            // Parse EPUB:
+            // Parse container.xml
+            $.ajax({
+                type: "GET",
+                url: "META-INF/container.xml",
+                dataType: "xml",
+                success: function(xml) {
+                    $(xml).find('rootfile').each(function(){
+                        var opf = $(this).attr('full-path');
+
+                        // Parse OPFs
+                        $.ajax({
+                            type: "GET",
+                            url: opf,
+                            dataType: "xml",
+                            success: function(xml) {
+                                var booktitle = $(xml).find('dc\\:title, title').text();
+                                $(xml).find('item[properties="nav"]').each(function(){
+                                    var nav = $(this).attr('href');
+                                    nav = getDirectory(opf) + nav;
+                                            $('<div class="book"></div>')
+                                              .attr('data-directory', getDirectory(nav))
+                                              .load(nav, function() {
+                                                  if (! $(this).children('h1').length) {
+                                                    $(this).prepend('<h1></h1>');
+                                                  }
+                                                    $(this).children('h1').eq(0).text(booktitle);
+                                                  $(this).contents()
+                                                    .filter(function () {
+                                                       return this.nodeType == 3;
+                                                    }).remove()
+                                              })
+                                              .appendTo('#books');
+                                });
+                            }
+                        });
+                    });
+                }
+            });
+
+            // Prevent opening links. 
+            $('#books').on('click', 'a', function(e) {
+               e.preventDefault();
+               var relativeDirectory = $(this).parents('div[class="book"]').attr('data-directory');
+               var contenturl = $(this).attr('href');
+               contenturl = relativeDirectory + contenturl;
+               $.get(contenturl)
+                 .success(function(data) {
+                    var $data = $(data);
+                    $data.find('img').not('[src^="http"],[src^="https"],[src^="/"]').each(function(){
+                      var newImageSrc = relativeDirectory + $(this).attr('src');
+                      $(this).attr('src', newImageSrc);
+                    });
+                    $("#content").html($data).show();
+                    MathJax.Hub.Queue(["Typeset",MathJax.Hub,'content']);
+               })
+            });
+       });
+     </script>
+</head>
+<body>
+  <h1>Contents of EPUB</h1>
+  <div id="books"></div>
+  <div id="content"></div>
+</body>
+</html>
