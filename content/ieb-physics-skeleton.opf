@@ -20,16 +20,16 @@
 <item id="chapter-10" href="template.cnxmlplus.html" media-type="application/xhtml+xml"/>
 <item id="nav" href="ieb-physics-skeleton-nav.html" media-type="application/xhtml+xml" properties="nav"/>
 <item href="book-titles-wrong-or-missing-0ddf7d35-8c03-4fc8-9431-15b9e86b6cef.html" id="book-titles-wrong-or-missing-0ddf7d35-8c03-4fc8-9431-15b9e86b6cef.html" media-type="application/xhtml+xml"/><item href="editor-does-not-if-window-small-84372ac0-b1ae-4e2c-bf3a-5f12ae73814f.html" id="editor-does-not-if-window-small-84372ac0-b1ae-4e2c-bf3a-5f12ae73814f.html" media-type="application/xhtml+xml"/><item href="firefox-editor-wont-load-at-all-bafb77bd-0950-44a1-b28d-d1830c023987.html" id="firefox-editor-wont-load-at-all-bafb77bd-0950-44a1-b28d-d1830c023987.html" media-type="application/xhtml+xml"/><item href="untitled-1bf06ee2-13da-4db7-a8fa-e19838bddf95.html" id="untitled-1bf06ee2-13da-4db7-a8fa-e19838bddf95.html" media-type="application/xhtml+xml"/><item href="../resources/e079bc312105e28524e28ff217c23997097d0fe7.png" id="../resources/e079bc312105e28524e28ff217c23997097d0fe7.png" media-type="image/png"/></manifest><spine>
-<itemref idref="intro"/>
-<itemref idref="chapter-0"/>
-<itemref idref="chapter-1"/>
-<itemref idref="chapter-2"/>
-<itemref idref="chapter-3"/>
-<itemref idref="chapter-4"/>
-<itemref idref="chapter-5"/>
-<itemref idref="chapter-6"/>
-<itemref idref="chapter-7"/>
-<itemref idref="chapter-8"/>
-<itemref idref="chapter-9"/>
-<itemref idref="chapter-10"/>
+<itemref idref="intro" properties="mathml"/>
+<itemref idref="chapter-0" properties="mathml"/>
+<itemref idref="chapter-1" properties="mathml"/>
+<itemref idref="chapter-2" properties="mathml"/>
+<itemref idref="chapter-3" properties="mathml"/>
+<itemref idref="chapter-4" properties="mathml"/>
+<itemref idref="chapter-5" properties="mathml"/>
+<itemref idref="chapter-6" properties="mathml"/>
+<itemref idref="chapter-7" properties="mathml"/>
+<itemref idref="chapter-8" properties="mathml"/>
+<itemref idref="chapter-9" properties="mathml"/>
+<itemref idref="chapter-10" properties="mathml"/>
 </spine></package>
