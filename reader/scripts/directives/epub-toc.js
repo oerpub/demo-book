@@ -20,13 +20,14 @@ angular.module('Reader')
 					$el.parents('li').addClass("openChapter");
 				}
 
-				$scope.updateCurrent = function(id) {
+				$scope.updateCurrent = function(item) {
 					// var item,
 					// 		ancestors = [];
 					// 
 					// var $el = $('#toc-'+id);
 
-					$scope.active = id;
+					$scope.active = item.href;
+                    $rootScope.book.goto(item.href);
 
 					// $location.path(href);
 					// $scope.$apply();
@@ -42,8 +43,6 @@ angular.module('Reader')
 					// $('.openChapter').removeClass("openChapter");
 					// $el.parents('li').addClass("openChapter");
 				}
-
-
 
 				$scope.toggleItem = function(id) {
 					var $el = $('#toc-'+id),

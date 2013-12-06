@@ -1,7 +1,7 @@
 <a class="toc_toggle" ng-click="toggleItem(item.id)" ng-class="{display: item.subitems.length > 0}">&nbsp;</a>
-<a ng-href="{{item.href}}" 
+<a   href="" 
 	 class="toc_link{{ item.type }}" 
-	 ng-click="updateCurrent(item.id)"
+	 ng-click="updateCurrent(item)"
 	 post-click >{{item.label}}</a>
 
 <ul>
