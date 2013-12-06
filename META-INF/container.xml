@@ -1,3 +1,6 @@
 <container xmlns="urn:oasis:names:tc:opendocument:xmlns:container" version="1.0">
-  <rootfiles><rootfile media-type="application/oebps-package+xml" full-path="content/about-the-textbook-editor-d6e0708b-02ce-4eb2-b9c7-3b3b6b5c4f45.opf" version="1.0"></rootfile><rootfile media-type="application/oebps-package+xml" full-path="content/siyavula-physics-12.opf" version="1.0"></rootfile><rootfile media-type="application/oebps-package+xml" full-path="content/ieb-physics-skeleton.opf" version="1.0"></rootfile></rootfiles>
+  <rootfiles>
+  <rootfile media-type="application/oebps-package+xml" full-path="content/siyavula-physics-12.opf" version="1.0"></rootfile>
+  <rootfile media-type="application/oebps-package+xml" full-path="content/about-the-textbook-editor-d6e0708b-02ce-4eb2-b9c7-3b3b6b5c4f45.opf" version="1.0"></rootfile>
+  <rootfile media-type="application/oebps-package+xml" full-path="content/ieb-physics-skeleton.opf" version="1.0"></rootfile></rootfiles>
 </container>
