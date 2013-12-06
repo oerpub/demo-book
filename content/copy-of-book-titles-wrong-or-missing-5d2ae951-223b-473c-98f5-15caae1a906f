@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops">
   <head>undefined</head>
-  <body><p>Add somethign</p></body>
+  <body><p></p><p>The editor works best in Chrome right now. If you are using Firefox, you may see the following bug. We are working to fix this as soon as possible.</p><p style="">In Firefox, the book titles in the Book Picker are wrong. The filename shows instead of the book title. In the Table of Contents, the book title is just missing.</p><p style=""></p><figure class="figure" title=""><div class="title"></div><img draggable="false" src="../resources/ae924e497386cad15bb73fd2249f7ef101feb7e9.png" alt="" class="aloha-image-uploading"/><figcaption></figcaption></figure><p style=""><br></p></body>
 </html>
