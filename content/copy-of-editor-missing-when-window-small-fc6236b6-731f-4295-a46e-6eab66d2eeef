@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops">
   <head>undefined</head>
-  <body><p>Add something</p></body>
+  <body><p>The editor works best in Chrome right now. If you are using Firefox, you may see the following bug. We are working to fix this as soon as possible.</p><p style="">In Firefox, if your window is not large enough to show all three panes (the Book Picker, Table of Contents, and Editor), the Editor pane will be missing and blank.</p><p style=""></p><figure class="figure" title=""><div class="title"></div><img draggable="false" src="../resources/8df8be69409384f976b010dc067c43b67443fc9e.png" alt="" class="aloha-image-uploading"/><figcaption></figcaption></figure><p style=""><br></p></body>
 </html>
