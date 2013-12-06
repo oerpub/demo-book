@@ -9,13 +9,18 @@
   <manifest>
     <item id="nav" href="siyavula-physics-12-nav.html" media-type="application/xhtml+xml" properties="nav"/>
 
-<item href="intro" id="Project-intro.html" media-type="application/xhtml+xml"/>
-<item id="chapter-10" href="02-Momentum-and-impulse.section-01.html" media-type="application/xhtml+xml"/>
-<item id="chapter-11" href="02-Momentum-and-impulse.section-02.html" media-type="application/xhtml+xml"/>
-<item id="chapter-12" href="02-Momentum-and-impulse.section-03.html" media-type="application/xhtml+xml"/>
-<item id="chapter-0" href="01-Skills-for-science.section-01.html" media-type="application/xhtml+xml"/>
-<item id="chapter-6" href="01-Skills-for-science.section-07.html" media-type="application/xhtml+xml"/>
-<item id="chapter-9" href="01-Skills-for-science.section-10.html" media-type="application/xhtml+xml"/>
+<item href="intro" id="Project-intro.html" media-type="application/xhtml+xml" properties="mathml"/>
+<item id="chapter-10" href="02-Momentum-and-impulse.section-01.html" media-type="application/xhtml+xml" properties="mathml"/>
+<item id="chapter-11" href="02-Momentum-and-impulse.section-02.html" media-type="application/xhtml+xml" properties="mathml"/>
+<item id="chapter-12" href="02-Momentum-and-impulse.section-03.html" media-type="application/xhtml+xml" properties="mathml"/>
+<item id="chapter-0" href="01-Skills-for-science.section-01.html" media-type="application/xhtml+xml" properties="mathml"/>
+<item id="chapter-6" href="01-Skills-for-science.section-07.html" media-type="application/xhtml+xml" properties="mathml"/>
+<item id="chapter-9" href="01-Skills-for-science.section-10.html" media-type="application/xhtml+xml" properties="mathml"/>
+<item href="Project-intro.html" id="Project-intro.html" media-type="application/xhtml+xml" properties="mathml"/>
+<item href="book-titles-wrong-or-missing-0ddf7d35-8c03-4fc8-9431-15b9e86b6cef.html" id="book-titles-wrong-or-missing-0ddf7d35-8c03-4fc8-9431-15b9e86b6cef.html" media-type="application/xhtml+xml" properties="mathml"/>
+<item href="editor-does-not-if-window-small-84372ac0-b1ae-4e2c-bf3a-5f12ae73814f.html" id="editor-does-not-if-window-small-84372ac0-b1ae-4e2c-bf3a-5f12ae73814f.html" media-type="application/xhtml+xml" properties="mathml"/>
+<item href="firefox-editor-wont-load-at-all-bafb77bd-0950-44a1-b28d-d1830c023987.html" id="firefox-editor-wont-load-at-all-bafb77bd-0950-44a1-b28d-d1830c023987.html" media-type="application/xhtml+xml" properties="mathml"/>
+<item href="untitled-1bf06ee2-13da-4db7-a8fa-e19838bddf95.html" id="untitled-1bf06ee2-13da-4db7-a8fa-e19838bddf95.html" media-type="application/xhtml+xml" properties="mathml"/>
 
 <item id="0b28140325e552ebdf7c1ad582ffd956.png" href="../resources/0b28140325e552ebdf7c1ad582ffd956.png" media-type="image/png"/>
 <item id="2b0728bc035f67f3634899b159799752.png" href="../resources/2b0728bc035f67f3634899b159799752.png" media-type="image/png"/>
@@ -40,14 +45,20 @@
 <item id="SquashCourt-by-MisterIan-on-Flickr-4084230081_700410d2e9_o.jpg" href="../resources/SquashCourt-by-MisterIan-on-Flickr-4084230081_700410d2e9_o.jpg" media-type="image/jpeg"/>
 <item id="TennisBallNet-by-swampa-on-Flickr-4308348195_ab53ed1b31_o.jpg" href="../resources/TennisBallNet-by-swampa-on-Flickr-4308348195_ab53ed1b31_o.jpg" media-type="image/jpeg"/>
 <item id="Truck-by-David-Guos-Master-on-Flickr-7553870574_1fbf12ca69_o.jpg" href="../resources/Truck-by-David-Guos-Master-on-Flickr-7553870574_1fbf12ca69_o.jpg" media-type="image/jpeg"/>
-
-  <item href="Project-intro.html" id="Project-intro.html" media-type="application/xhtml+xml"/><item href="book-titles-wrong-or-missing-0ddf7d35-8c03-4fc8-9431-15b9e86b6cef.html" id="book-titles-wrong-or-missing-0ddf7d35-8c03-4fc8-9431-15b9e86b6cef.html" media-type="application/xhtml+xml"/><item href="editor-does-not-if-window-small-84372ac0-b1ae-4e2c-bf3a-5f12ae73814f.html" id="editor-does-not-if-window-small-84372ac0-b1ae-4e2c-bf3a-5f12ae73814f.html" media-type="application/xhtml+xml"/><item href="firefox-editor-wont-load-at-all-bafb77bd-0950-44a1-b28d-d1830c023987.html" id="firefox-editor-wont-load-at-all-bafb77bd-0950-44a1-b28d-d1830c023987.html" media-type="application/xhtml+xml"/><item href="untitled-1bf06ee2-13da-4db7-a8fa-e19838bddf95.html" id="untitled-1bf06ee2-13da-4db7-a8fa-e19838bddf95.html" media-type="application/xhtml+xml"/><item href="../resources/e079bc312105e28524e28ff217c23997097d0fe7.png" id="../resources/e079bc312105e28524e28ff217c23997097d0fe7.png" media-type="image/png"/></manifest>
+<item href="../resources/e079bc312105e28524e28ff217c23997097d0fe7.png" id="../resources/e079bc312105e28524e28ff217c23997097d0fe7.png" media-type="image/png"/>
+</manifest>
   <spine>
-	<itemref idref="chapter-10" properties="mathml"/>
-	<itemref idref="chapter-11" properties="mathml"/>
-	<itemref idref="chapter-12" properties="mathml"/>
-	<itemref idref="chapter-0" properties="mathml"/>
-	<itemref idref="chapter-6" properties="mathml"/>
-	<itemref idref="chapter-9" properties="mathml"/>
+
+<itemref idref="Project-intro.html"/>
+<itemref idref="firefox-editor-wont-load-at-all-bafb77bd-0950-44a1-b28d-d1830c023987.html"/>
+<itemref idref="book-titles-wrong-or-missing-0ddf7d35-8c03-4fc8-9431-15b9e86b6cef.html"/>
+<itemref idref="editor-does-not-if-window-small-84372ac0-b1ae-4e2c-bf3a-5f12ae73814f.html"/>
+<itemref idref="chapter-10"/>
+<itemref idref="chapter-11"/>
+<itemref idref="chapter-12"/>
+<itemref idref="chapter-0"/>
+<itemref idref="chapter-6"/>
+<itemref idref="chapter-9"/>
+
   </spine>
 </package>
