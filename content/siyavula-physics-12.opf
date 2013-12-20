@@ -7,21 +7,7 @@
     <meta property="dcterms:modified">Mon Aug 19 19:35:43 2013 GMT</meta>
   </metadata>
   <manifest>
-    <item id="nav" href="siyavula-physics-12-nav.html" media-type="application/xhtml+xml" properties="nav"/>
-
-<item href="intro" id="Project-intro.html" media-type="application/xhtml+xml" properties="mathml"/>
-<item id="chapter-10" href="02-Momentum-and-impulse.section-01.html" media-type="application/xhtml+xml" properties="mathml"/>
-<item id="chapter-11" href="02-Momentum-and-impulse.section-02.html" media-type="application/xhtml+xml" properties="mathml"/>
-<item id="chapter-12" href="02-Momentum-and-impulse.section-03.html" media-type="application/xhtml+xml" properties="mathml"/>
-<item id="chapter-0" href="01-Skills-for-science.section-01.html" media-type="application/xhtml+xml" properties="mathml"/>
-<item id="chapter-6" href="01-Skills-for-science.section-07.html" media-type="application/xhtml+xml" properties="mathml"/>
-<item id="chapter-9" href="01-Skills-for-science.section-10.html" media-type="application/xhtml+xml" properties="mathml"/>
-<item href="Project-intro.html" id="Project-intro.html" media-type="application/xhtml+xml" properties="mathml"/>
-<item href="book-titles-wrong-or-missing-0ddf7d35-8c03-4fc8-9431-15b9e86b6cef.html" id="book-titles-wrong-or-missing-0ddf7d35-8c03-4fc8-9431-15b9e86b6cef.html" media-type="application/xhtml+xml" properties="mathml"/>
-<item href="editor-does-not-if-window-small-84372ac0-b1ae-4e2c-bf3a-5f12ae73814f.html" id="editor-does-not-if-window-small-84372ac0-b1ae-4e2c-bf3a-5f12ae73814f.html" media-type="application/xhtml+xml" properties="mathml"/>
-<item href="firefox-editor-wont-load-at-all-bafb77bd-0950-44a1-b28d-d1830c023987.html" id="firefox-editor-wont-load-at-all-bafb77bd-0950-44a1-b28d-d1830c023987.html" media-type="application/xhtml+xml" properties="mathml"/>
-<item href="untitled-1bf06ee2-13da-4db7-a8fa-e19838bddf95.html" id="untitled-1bf06ee2-13da-4db7-a8fa-e19838bddf95.html" media-type="application/xhtml+xml" properties="mathml"/>
-
+   
 <item id="0b28140325e552ebdf7c1ad582ffd956.png" href="../resources/0b28140325e552ebdf7c1ad582ffd956.png" media-type="image/png"/>
 <item id="2b0728bc035f67f3634899b159799752.png" href="../resources/2b0728bc035f67f3634899b159799752.png" media-type="image/png"/>
 <item id="40cd7147ffb9033dc59b7ae0d49b7b00.png" href="../resources/40cd7147ffb9033dc59b7ae0d49b7b00.png" media-type="image/png"/>
@@ -46,6 +32,26 @@
 <item id="TennisBallNet-by-swampa-on-Flickr-4308348195_ab53ed1b31_o.jpg" href="../resources/TennisBallNet-by-swampa-on-Flickr-4308348195_ab53ed1b31_o.jpg" media-type="image/jpeg"/>
 <item id="Truck-by-David-Guos-Master-on-Flickr-7553870574_1fbf12ca69_o.jpg" href="../resources/Truck-by-David-Guos-Master-on-Flickr-7553870574_1fbf12ca69_o.jpg" media-type="image/jpeg"/>
 <item href="../resources/e079bc312105e28524e28ff217c23997097d0fe7.png" id="../resources/e079bc312105e28524e28ff217c23997097d0fe7.png" media-type="image/png"/>
-<item href="about-the-textbook-editor-26e3e2b5-1fa2-4d26-84c9-641015f4850a-nav.html" id="about-the-textbook-editor-26e3e2b5-1fa2-4d26-84c9-641015f4850a-nav.html" media-type="application/xhtml+xml"/><item href="module1-a568ce26-956a-46b2-a5a7-d1e3929e1ae0.html" id="module1-a568ce26-956a-46b2-a5a7-d1e3929e1ae0.html" media-type="application/xhtml+xml"/><item href="copy-of-introduction-to-this-editor-and-project-ac4e94f1-be8a-4d5d-82d0-81b6ab3f87c8" id="copy-of-introduction-to-this-editor-and-project-ac4e94f1-be8a-4d5d-82d0-81b6ab3f87c8" media-type="application/xhtml+xml"/><item href="copy-of-editor-wont-load-at-all-1dcc9b78-8497-4792-89f9-9a0d3768ed12" id="copy-of-editor-wont-load-at-all-1dcc9b78-8497-4792-89f9-9a0d3768ed12" media-type="application/xhtml+xml"/><item href="copy-of-book-titles-wrong-or-missing-5d2ae951-223b-473c-98f5-15caae1a906f" id="copy-of-book-titles-wrong-or-missing-5d2ae951-223b-473c-98f5-15caae1a906f" media-type="application/xhtml+xml"/><item href="copy-of-editor-missing-when-window-small-fc6236b6-731f-4295-a46e-6eab66d2eeef" id="copy-of-editor-missing-when-window-small-fc6236b6-731f-4295-a46e-6eab66d2eeef" media-type="application/xhtml+xml"/><item href="../resources/8df8be69409384f976b010dc067c43b67443fc9e.png" id="../resources/8df8be69409384f976b010dc067c43b67443fc9e.png" media-type="image/png"/><item href="../resources/ae924e497386cad15bb73fd2249f7ef101feb7e9.png" id="../resources/ae924e497386cad15bb73fd2249f7ef101feb7e9.png" media-type="image/png"/><item href="information-for-software-developers-d15475ab-5acd-4a3c-b499-941c7538d1c2.html" id="information-for-software-developers-d15475ab-5acd-4a3c-b499-941c7538d1c2.html" media-type="application/xhtml+xml"/><item href="self-guided-tour-c3edd141-2ccb-430e-b13e-1656f12a0b2a.html" id="self-guided-tour-c3edd141-2ccb-430e-b13e-1656f12a0b2a.html" media-type="application/xhtml+xml"/></manifest>
-  <spine><itemref xmlns="http://www.w3.org/1999/xhtml" idref="Project-intro.html"></itemref><itemref xmlns="http://www.w3.org/1999/xhtml" idref="02-Momentum-and-impulse.section-01.html"></itemref><itemref xmlns="http://www.w3.org/1999/xhtml" idref="02-Momentum-and-impulse.section-02.html"></itemref><itemref xmlns="http://www.w3.org/1999/xhtml" idref="02-Momentum-and-impulse.section-03.html"></itemref><itemref xmlns="http://www.w3.org/1999/xhtml" idref="01-Skills-for-science.section-01.html"></itemref><itemref xmlns="http://www.w3.org/1999/xhtml" idref="01-Skills-for-science.section-07.html"></itemref><itemref xmlns="http://www.w3.org/1999/xhtml" idref="01-Skills-for-science.section-10.html"></itemref></spine>
+<item href="../resources/8df8be69409384f976b010dc067c43b67443fc9e.png" id="../resources/8df8be69409384f976b010dc067c43b67443fc9e.png" media-type="image/png"/>
+<item href="../resources/ae924e497386cad15bb73fd2249f7ef101feb7e9.png" id="../resources/ae924e497386cad15bb73fd2249f7ef101feb7e9.png" media-type="image/png"/>
+
+<item id="nav" href="siyavula-physics-12-nav.html" media-type="application/xhtml+xml" properties="nav"/>
+<item href="Project-intro.html" id="Project-intro.html" media-type="application/xhtml+xml" properties="mathml"/>
+<item href="02-Momentum-and-impulse.section-01.html" id="02-Momentum-and-impulse.section-01.html" media-type="application/xhtml+xml" properties="mathml"/>
+<item href="02-Momentum-and-impulse.section-02.html" id="02-Momentum-and-impulse.section-02.html" media-type="application/xhtml+xml" properties="mathml"/>
+<item href="02-Momentum-and-impulse.section-03.html" id="02-Momentum-and-impulse.section-03.html" media-type="application/xhtml+xml" properties="mathml"/>
+<item href="01-Skills-for-science.section-01.html" id="01-Skills-for-science.section-01.html" media-type="application/xhtml+xml" properties="mathml"/>
+<item href="01-Skills-for-science.section-07.html" id="01-Skills-for-science.section-07.html" media-type="application/xhtml+xml" properties="mathml"/>
+<item href="01-Skills-for-science.section-10.html" id="01-Skills-for-science.section-10.html" media-type="application/xhtml+xml" properties="mathml"/>
+
+</manifest>
+  <spine>
+  <itemref xmlns="http://www.w3.org/1999/xhtml" idref="Project-intro.html"></itemref>
+  <itemref xmlns="http://www.w3.org/1999/xhtml" idref="02-Momentum-and-impulse.section-01.html"></itemref>
+  <itemref xmlns="http://www.w3.org/1999/xhtml" idref="02-Momentum-and-impulse.section-02.html"></itemref>
+  <itemref xmlns="http://www.w3.org/1999/xhtml" idref="02-Momentum-and-impulse.section-03.html"></itemref>
+  <itemref xmlns="http://www.w3.org/1999/xhtml" idref="01-Skills-for-science.section-01.html"></itemref>
+  <itemref xmlns="http://www.w3.org/1999/xhtml" idref="01-Skills-for-science.section-07.html"></itemref>
+  <itemref xmlns="http://www.w3.org/1999/xhtml" idref="01-Skills-for-science.section-10.html"></itemref>
+  </spine>
 </package>
