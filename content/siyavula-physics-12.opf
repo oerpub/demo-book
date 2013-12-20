@@ -45,13 +45,5 @@
 <item href="01-Skills-for-science.section-10.html" id="01-Skills-for-science.section-10.html" media-type="application/xhtml+xml" properties="mathml"/>
 
 </manifest>
-  <spine>
-  <itemref xmlns="http://www.w3.org/1999/xhtml" idref="Project-intro.html"></itemref>
-  <itemref xmlns="http://www.w3.org/1999/xhtml" idref="02-Momentum-and-impulse.section-01.html"></itemref>
-  <itemref xmlns="http://www.w3.org/1999/xhtml" idref="02-Momentum-and-impulse.section-02.html"></itemref>
-  <itemref xmlns="http://www.w3.org/1999/xhtml" idref="02-Momentum-and-impulse.section-03.html"></itemref>
-  <itemref xmlns="http://www.w3.org/1999/xhtml" idref="01-Skills-for-science.section-01.html"></itemref>
-  <itemref xmlns="http://www.w3.org/1999/xhtml" idref="01-Skills-for-science.section-07.html"></itemref>
-  <itemref xmlns="http://www.w3.org/1999/xhtml" idref="01-Skills-for-science.section-10.html"></itemref>
-  </spine>
+  <spine><itemref xmlns="http://www.w3.org/1999/xhtml" idref="Project-intro.html"></itemref><itemref xmlns="http://www.w3.org/1999/xhtml" idref="02-Momentum-and-impulse.section-01.html"></itemref><itemref xmlns="http://www.w3.org/1999/xhtml" idref="02-Momentum-and-impulse.section-02.html"></itemref><itemref xmlns="http://www.w3.org/1999/xhtml" idref="02-Momentum-and-impulse.section-03.html"></itemref><itemref xmlns="http://www.w3.org/1999/xhtml" idref="01-Skills-for-science.section-01.html"></itemref><itemref xmlns="http://www.w3.org/1999/xhtml" idref="01-Skills-for-science.section-07.html"></itemref><itemref xmlns="http://www.w3.org/1999/xhtml" idref="01-Skills-for-science.section-10.html"></itemref></spine>
 </package>
